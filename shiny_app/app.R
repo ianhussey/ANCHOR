@@ -247,7 +247,7 @@ server <- function(input, output, session) {
   # Download handler for the Excel file with one table per sheet
   output$downloadResults <- downloadHandler(
     filename = function() {
-      paste("overall_vs_subsets_results_", Sys.Date(), ".xlsx", sep="")
+      paste("ANCHOR_results_", Sys.Date(), ".xlsx", sep="")
     },
     content = function(file) {
       # Collect overall inputs
@@ -287,12 +287,12 @@ server <- function(input, output, session) {
       # Add worksheets
       addWorksheet(wb, "Overall Inputs")
       addWorksheet(wb, "Subgroup Inputs")
-      addWorksheet(wb, "Summary Table")
+      addWorksheet(wb, "ANCHOR Results")
       
       # Write data to worksheets
       writeData(wb, "Overall Inputs", overall_inputs)
       writeData(wb, "Subgroup Inputs", subgroup_data)
-      writeData(wb, "Summary Table", res)
+      writeData(wb, "ANCHOR Results", res)
       
       # Save the workbook to the file
       saveWorkbook(wb, file, overwrite = TRUE)
