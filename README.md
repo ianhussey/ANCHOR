@@ -1,4 +1,4 @@
-# Assessing Numerical Consistency between wHole sample and subgROups (ANCHOR)
+# Assessing Numerical Consistency between wHOle sample and subgRoups (ANCHOR)
 
 ## A method to check for inconsistencies in reported summary statistics for the full sample vs. subgroups
 
@@ -15,7 +15,7 @@ Note that this method of error checking is well established and I make no claim 
 
 ## Cite as
 
-Hussey, I. (2024). Assessing Numerical Consistency between wHole sample and subgROups (ANCHOR): A method to check for inconsistencies in reported summary statistics for the full sample vs. subgroups. https://github.com/ianhussey/ANCHOR
+Hussey, I. (2024). Assessing Numerical Consistency between wHOle sample and subgRoups (ANCHOR): A method to check for inconsistencies in reported summary statistics for the full sample vs. subgroups. https://github.com/ianhussey/ANCHOR
 
 
 
