@@ -21,7 +21,7 @@ pooled_sd <- function(subgroup_sds, subgroup_ns) {
 # Define UI for the application
 ui <- fluidPage(
   # Application title
-  titlePanel("ANCHOR: Assessing Numerical Consistency between wHole sample and subgROups"),
+  titlePanel("ANCHOR: Assessing Numerical Consistency between wHOle sample and subgRoups"),
   # or maybe: WAVES: Weighted Analysis and Verification of Estimated Statistics
   
   # Sidebar layout with input and output definitions
